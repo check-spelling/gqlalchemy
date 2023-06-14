@@ -59,6 +59,6 @@ Generates Cypher queries and inserts data into Memgraph in parallel.
 def get_instance()
 ```
 
-Creates Networx instance of the graph from the data residing inside Memgraph. Since Networkx doesn&#x27;t support labels in a way Memgraph does, labels
+Creates Networkx instance of the graph from the data residing inside Memgraph. Since Networkx doesn&#x27;t support labels in a way Memgraph does, labels
 are encoded as a node and edge properties.
 
