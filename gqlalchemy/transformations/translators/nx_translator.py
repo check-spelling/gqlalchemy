@@ -254,7 +254,7 @@ class NxTranslator(Translator):
             )
 
     def get_instance(self):
-        """Creates Networx instance of the graph from the data residing inside Memgraph. Since Networkx doesn't support labels in a way Memgraph does, labels
+        """Creates Networkx instance of the graph from the data residing inside Memgraph. Since Networkx doesn't support labels in a way Memgraph does, labels
         are encoded as a node and edge properties.
         """
         # Get all nodes and edges from the database (connected nodes)
